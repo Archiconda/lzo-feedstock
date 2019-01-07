@@ -19,7 +19,7 @@ requirements:
   build:
     - cmake 3.*
     - {{ compiler('c') }}
-    - make
+    - make    # [unix]
 
 test:
   commands:
